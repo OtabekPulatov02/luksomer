@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Детали проекта - LUKSOMER LLC">
+    <title>Проект - LUKSOMER LLC</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="index.html" class="logo">
+                    <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                    <div>
+                        <div class="logo-title">LUKSOMER</div>
+                        <div class="logo-subtitle" data-i18n="nav.subtitle">Энергетика и строительство</div>
+                    </div>
+                </a>
+
+                <div class="nav-menu" id="navMenu">
+                    <a href="index.html" class="nav-link" data-i18n="nav.home">Главная</a>
+                    <a href="about.html" class="nav-link" data-i18n="nav.about">О компании</a>
+                    <a href="projects.html" class="nav-link active" data-i18n="nav.projects">Проекты</a>
+                    <a href="contacts.html" class="nav-link" data-i18n="nav.contacts">Контакты</a>
+                </div>
+
+                <div class="nav-right">
+                    <div class="language-switcher">
+                        <button class="lang-btn active" data-lang="ru">RU</button>
+                        <button class="lang-btn" data-lang="uz">UZ</button>
+                        <button class="lang-btn" data-lang="en">EN</button>
+                    </div>
+                    <button class="mobile-menu-btn" id="mobileMenuBtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="page-header-bg">
+            <img src="https://images.unsplash.com/photo-1629713850845-8bd09bfb648f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1920"
+                alt="Project" id="projectHeaderImage">
+        </div>
+        <div class="container">
+            <div class="page-header-content">
+                <nav class="breadcrumbs">
+                    <a href="index.html">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" stroke-width="2" />
+                        </svg>
+                    </a>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M9 18l6-6-6-6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <a href="projects.html" data-i18n="nav.projects">Проекты</a>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M9 18l6-6-6-6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <span id="projectBreadcrumb">Детали проекта</span>
+                </nav>
+                <h1 class="page-title" id="projectTitle">Реконструкция ЛЭП 220 kV Самарканд</h1>
+                <p class="page-description" id="projectDescription">
+                    Модернизация высоковольтных линий электропередач с установкой современного оборудования
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Details -->
+    <section style="padding: 5rem 0; background: white;">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 3rem;">
+                <div>
+                    <!-- Project Info -->
+                    <div style="margin-bottom: 3rem;">
+                        <h2 style="font-size: 2rem; margin-bottom: 1.5rem;">О проекте</h2>
+                        <p style="color: var(--text-gray); font-size: 1.125rem; line-height: 1.8; margin-bottom: 1rem;">
+                            Масштабный проект по реконструкции линий электропередач напряжением 220 kV в Самаркандской
+                            области. Работы включали полную замену опор, проводов и изоляторов на участке протяженностью
+                            85 км.
+                        </p>
+                        <p style="color: var(--text-gray); font-size: 1.125rem; line-height: 1.8;">
+                            Проект реализован в соответствии с современными стандартами безопасности и надежности
+                            электроснабжения. Использовано новейшее оборудование ведущих мировых производителей.
+                        </p>
+                    </div>
+
+                    <!-- Project Objectives -->
+                    <div style="margin-bottom: 3rem;">
+                        <h2 style="font-size: 2rem; margin-bottom: 1.5rem;">Задачи</h2>
+                        <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 1rem;">
+                            <li style="display: flex; align-items: start; gap: 0.75rem;">
+                                <div
+                                    style="background: var(--primary-color); width: 24px; height: 24px; border-radius: 50%; flex-shrink: 0; margin-top: 0.125rem; position: relative;">
+                                    <div
+                                        style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 8px; height: 8px; background: white; border-radius: 50%;">
+                                    </div>
+                                </div>
+                                <span style="color: var(--text-gray); font-size: 1.125rem;">Замена устаревших опор линий
+                                    электропередач</span>
+                            </li>
+                            <li style="display: flex; align-items: start; gap: 0.75rem;">
+                                <div
+                                    style="background: var(--primary-color); width: 24px; height: 24px; border-radius: 50%; flex-shrink: 0; margin-top: 0.125rem; position: relative;">
+                                    <div
+                                        style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 8px; height: 8px; background: white; border-radius: 50%;">
+                                    </div>
+                                </div>
+                                <span style="color: var(--text-gray); font-size: 1.125rem;">Установка современных
+                                    проводов и изоляторов</span>
+                            </li>
+                            <li style="display: flex; align-items: start; gap: 0.75rem;">
+                                <div
+                                    style="background: var(--primary-color); width: 24px; height: 24px; border-radius: 50%; flex-shrink: 0; margin-top: 0.125rem; position: relative;">
+                                    <div
+                                        style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 8px; height: 8px; background: white; border-radius: 50%;">
+                                    </div>
+                                </div>
+                                <span style="color: var(--text-gray); font-size: 1.125rem;">Повышение надежности
+                                    электроснабжения региона</span>
+                            </li>
+                            <li style="display: flex; align-items: start; gap: 0.75rem;">
+                                <div
+                                    style="background: var(--primary-color); width: 24px; height: 24px; border-radius: 50%; flex-shrink: 0; margin-top: 0.125rem; position: relative;">
+                                    <div
+                                        style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 8px; height: 8px; background: white; border-radius: 50%;">
+                                    </div>
+                                </div>
+                                <span style="color: var(--text-gray); font-size: 1.125rem;">Соблюдение графика работ без
+                                    отключения потребителей</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Project Results -->
+                    <div style="margin-bottom: 3rem;">
+                        <h2 style="font-size: 2rem; margin-bottom: 1.5rem;">Результаты</h2>
+                        <div
+                            style="background: var(--gray-light); padding: 2rem; border-radius: 0.5rem; border-left: 4px solid var(--primary-color);">
+                            <p
+                                style="color: var(--text-gray); font-size: 1.125rem; line-height: 1.8; margin-bottom: 1rem;">
+                                Проект завершен досрочно на 2 недели. Надежность электроснабжения региона повысилась на
+                                35%. Снижение потерь электроэнергии составило 18%.
+                            </p>
+                            <p style="color: var(--text-gray); font-size: 1.125rem; line-height: 1.8;">
+                                Все работы выполнены без единого инцидента, с полным соблюдением требований
+                                безопасности. Заказчик высоко оценил качество выполненных работ.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Technologies -->
+                    <div>
+                        <h2 style="font-size: 2rem; margin-bottom: 1.5rem;">Использованные технологии</h2>
+                        <div style="display: flex; flex-wrap: wrap; gap: 0.75rem;">
+                            <span
+                                style="background: var(--gray-light); padding: 0.5rem 1rem; border-radius: 0.375rem; font-size: 0.875rem; color: var(--text-dark);">Опоры
+                                ЛЭП 220 kV</span>
+                            <span
+                                style="background: var(--gray-light); padding: 0.5rem 1rem; border-radius: 0.375rem; font-size: 0.875rem; color: var(--text-dark);">Провода
+                                АС-400</span>
+                            <span
+                                style="background: var(--gray-light); padding: 0.5rem 1rem; border-radius: 0.375rem; font-size: 0.875rem; color: var(--text-dark);">Изоляторы
+                                ПС-70</span>
+                            <span
+                                style="background: var(--gray-light); padding: 0.5rem 1rem; border-radius: 0.375rem; font-size: 0.875rem; color: var(--text-dark);">Грозозащита
+                                OPGW</span>
+                            <span
+                                style="background: var(--gray-light); padding: 0.5rem 1rem; border-radius: 0.375rem; font-size: 0.875rem; color: var(--text-dark);">Автоматика
+                                РЗА</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sidebar -->
+                <div>
+                    <div
+                        style="background: var(--gray-light); padding: 2rem; border-radius: 0.5rem; position: sticky; top: 80px;">
+                        <h3 style="font-size: 1.5rem; margin-bottom: 1.5rem;">Информация о проекте</h3>
+                        <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+                            <div>
+                                <div style="font-size: 0.875rem; color: var(--text-gray); margin-bottom: 0.25rem;">
+                                    Заказчик</div>
+                                <div style="font-size: 1.125rem; font-weight: 600;">Узбекэнерго</div>
+                            </div>
+                            <div>
+                                <div style="font-size: 0.875rem; color: var(--text-gray); margin-bottom: 0.25rem;">
+                                    Локация</div>
+                                <div style="font-size: 1.125rem; font-weight: 600;">Самарканд, Узбекистан</div>
+                            </div>
+                            <div>
+                                <div style="font-size: 0.875rem; color: var(--text-gray); margin-bottom: 0.25rem;">Срок
+                                    реализации</div>
+                                <div style="font-size: 1.125rem; font-weight: 600;">8 месяцев</div>
+                            </div>
+                            <div>
+                                <div style="font-size: 0.875rem; color: var(--text-gray); margin-bottom: 0.25rem;">Год
+                                    завершения</div>
+                                <div style="font-size: 1.125rem; font-weight: 600;">2023</div>
+                            </div>
+                            <div>
+                                <div style="font-size: 0.875rem; color: var(--text-gray); margin-bottom: 0.25rem;">
+                                    Категория</div>
+                                <div style="font-size: 1.125rem; font-weight: 600;">Линии электропередач</div>
+                            </div>
+                        </div>
+                        <div style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--border-color);">
+                            <a href="contacts.html" class="btn btn-primary"
+                                style="width: 100%; justify-content: center;">
+                                Обсудить проект
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Related Projects -->
+    <section style="padding: 5rem 0; background: var(--gray-light);">
+        <div class="container">
+            <h2 class="section-title">Похожие проекты</h2>
+            <div class="projects-grid">
+                <a href="project-detail.html?id=1" class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1629713850845-8bd09bfb648f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600"
+                            alt="Project 1">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-year">2023</div>
+                        <h3 class="project-title" data-i18n="projects.project1.title">Реконструкция ЛЭП в Самарканде
+                        </h3>
+                        <p class="project-description" data-i18n="projects.project1.desc">
+                            Модернизация линий электропередач 220 kV
+                        </p>
+                    </div>
+                </a>
+                <a href="project-detail.html?id=2" class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1708440889870-a2538074d177?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600"
+                            alt="Project 2">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-year">2024</div>
+                        <h3 class="project-title" data-i18n="projects.project2.title">Уличное освещение Ташкента</h3>
+                        <p class="project-description" data-i18n="projects.project2.desc">
+                            Установка энергоэффективных систем освещения
+                        </p>
+                    </div>
+                </a>
+                <a href="project-detail.html?id=3" class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1509390144018-eeaf65052242?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=600"
+                            alt="Project 3">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-year">2023</div>
+                        <h3 class="project-title" data-i18n="projects.project3.title">Подстанция 110/10 kV</h3>
+                        <p class="project-description" data-i18n="projects.project3.desc">
+                            Строительство новой трансформаторной подстанции
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                        <div>
+                            <div class="logo-title">LUKSOMER</div>
+                            <div class="logo-subtitle" data-i18n="nav.subtitle">Энергетика и строительство</div>
+                        </div>
+                    </div>
+                    <p class="footer-description" data-i18n="footer.description">
+                        Надежный партнер в области энергетики и электромонтажных работ с 2009 года
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z" />
+                                <circle cx="4" cy="4" r="2" />
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-title" data-i18n="footer.nav">Навигация</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html" data-i18n="nav.home">Главная</a></li>
+                        <li><a href="about.html" data-i18n="nav.about">О компании</a></li>
+                        <li><a href="projects.html" data-i18n="nav.projects">Проекты</a></li>
+                        <li><a href="contacts.html" data-i18n="nav.contacts">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-title" data-i18n="footer.services">Услуги</h3>
+                    <ul class="footer-links">
+                        <li data-i18n="services.power.title">Электроснабжение</li>
+                        <li data-i18n="services.lines.title">Линии электропередач</li>
+                        <li data-i18n="services.lighting.title">Уличное освещение</li>
+                        <li data-i18n="services.substations.title">Подстанции</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 class="footer-title" data-i18n="footer.contacts">Контакты</h3>
+                    <ul class="footer-contacts">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path
+                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                                    stroke-width="2" />
+                            </svg>
+                            <span>+998 71 123 45 67</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                                    stroke-width="2" />
+                                <polyline points="22,6 12,13 2,6" stroke-width="2" />
+                            </svg>
+                            <span>info@luksomer.uz</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke-width="2" />
+                                <circle cx="12" cy="10" r="3" stroke-width="2" />
+                            </svg>
+                            <span data-i18n="footer.address">г. Ташкент, ул. Примерная, д. 123</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> LUKSOMER LLC. <span data-i18n="footer.rights">Все права
+                        защищены</span>.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/i18n.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        // Simple project detail logic based on URL parameter
+        const urlParams = new URLSearchParams(window.location.search);
+        const projectId = urlParams.get('id');
+
+        // You can expand this with more project data
+        const projects = {
+            '1': {
+                title: 'Реконструкция ЛЭП 220 kV Самарканд',
+                description: 'Модернизация высоковольтных линий электропередач',
+                image: 'https://images.unsplash.com/photo-1629713850845-8bd09bfb648f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1920'
+            },
+            '2': {
+                title: 'Уличное освещение города Ташкент',
+                description: 'Установка энергоэффективных LED-систем освещения',
+                image: 'https://images.unsplash.com/photo-1708440889870-a2538074d177?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1920'
+            },
+            '3': {
+                title: 'Подстанция 110/10 kV',
+                description: 'Строительство новой трансформаторной подстанции',
+                image: 'https://images.unsplash.com/photo-1509390144018-eeaf65052242?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1920'
+            }
+        };
+
+        if (projectId && projects[projectId]) {
+            const project = projects[projectId];
+            document.getElementById('projectTitle').textContent = project.title;
+            document.getElementById('projectDescription').textContent = project.description;
+            document.getElementById('projectHeaderImage').src = project.image;
+            document.getElementById('projectBreadcrumb').textContent = project.title.substring(0, 30) + '...';
+        }
+    </script>
+</body>
+
+</html>
