@@ -21,7 +21,7 @@ const translations = {
         'services.power.title': 'Электроснабжение',
         'services.power.desc': 'Комплексные решения по электроснабжению объектов любой сложности',
         'services.lines.title': 'Линии электропередач',
-        'services.lines.desc': 'Строительство ЛЭП 35-500 kV под ключ',
+        'services.lines.desc': 'Строительство ЛЭП 35-500 kV ',
         'services.lighting.title': 'Освещение',
         'services.lighting.desc': 'Уличное и дорожное освещение по современным стандартам',
         'services.substations.title': 'Подстанции',
