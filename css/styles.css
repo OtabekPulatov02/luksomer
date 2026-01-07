@@ -800,6 +800,14 @@ body {
         left: 0;
     }
 
+    /* Language switcher in mobile menu */
+    .nav-menu.active .language-switcher {
+        margin-top: 1rem;
+        padding-top: 1rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        justify-content: center;
+    }
+
     .mobile-menu-btn {
         display: flex;
     }
@@ -815,6 +823,10 @@ body {
 
     .contact-form-grid>* {
         min-width: 0;
+    }
+
+    .nav-right div.language-switcher {
+        display: none;
     }
 }
 

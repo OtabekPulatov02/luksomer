@@ -1,11 +1,22 @@
 // Mobile Menu Toggle
 const mobileMenuBtn = document.getElementById('mobileMenuBtn');
 const navMenu = document.getElementById('navMenu');
+const languageSwitcher = document.querySelector('.language-switcher');
+const navRight = document.querySelector('.nav-right');
 
 if (mobileMenuBtn) {
     mobileMenuBtn.addEventListener('click', () => {
-        navMenu.classList.toggle('active');
+        const isActive = navMenu.classList.toggle('active');
         mobileMenuBtn.classList.toggle('active');
+        
+        // Move language switcher to mobile menu or back to nav-right
+        if (isActive) {
+            // Mobile menu is opening - move language switcher inside nav-menu
+            navMenu.appendChild(languageSwitcher);
+        } else {
+            // Mobile menu is closing - move language switcher back to nav-right
+            navRight.insertBefore(languageSwitcher, mobileMenuBtn);
+        }
     });
 
     // Close menu when clicking on a link
@@ -13,6 +24,9 @@ if (mobileMenuBtn) {
         link.addEventListener('click', () => {
             navMenu.classList.remove('active');
             mobileMenuBtn.classList.remove('active');
+            
+            // Move language switcher back to nav-right
+            navRight.insertBefore(languageSwitcher, mobileMenuBtn);
         });
     });
 }
