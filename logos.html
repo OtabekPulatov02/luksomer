@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Корпоративные логотипы LUKSOMER LLC">
+    <title>Логотипы - LUKSOMER LLC</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .logos-page {
+            padding: 5rem 0;
+            background: #f8fafc;
+        }
+
+        .logo-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .logo-variant {
+            background: white;
+            border-radius: 0.75rem;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            transition: all 0.3s ease;
+        }
+
+        .logo-variant:hover {
+            box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+            transform: translateY(-4px);
+        }
+
+        .logo-header {
+            padding: 1rem 1.5rem;
+            background: #f1f5f9;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .logo-number {
+            font-size: 0.75rem;
+            color: #64748b;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            font-weight: 600;
+        }
+
+        .logo-name {
+            font-size: 1.125rem;
+            font-weight: 600;
+            color: #0f172a;
+            margin-top: 0.25rem;
+        }
+
+        .logo-display {
+            padding: 2.5rem 1.5rem;
+            min-height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo-display.dark {
+            background: #0f172a;
+        }
+
+        .logo-display.light {
+            background: white;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .logo-variations {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .logo-small {
+            padding: 1.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 120px;
+            border: 1px solid #e2e8f0;
+        }
+
+        .logo-small.dark {
+            background: #1e293b;
+        }
+
+        .logo-small.light {
+            background: #f8fafc;
+        }
+
+        .logo-tag {
+            display: inline-block;
+            padding: 0.25rem 0.625rem;
+            background: #dbeafe;
+            color: #1e40af;
+            font-size: 0.75rem;
+            border-radius: 0.25rem;
+            margin-left: 0.5rem;
+            font-weight: 500;
+        }
+
+        .download-section {
+            padding: 1rem 1.5rem;
+            background: #f8fafc;
+            border-top: 1px solid #e2e8f0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo-tags {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .tag-small {
+            font-size: 0.625rem;
+            padding: 0.125rem 0.5rem;
+            background: #e0e7ff;
+            color: #3730a3;
+            border-radius: 0.25rem;
+        }
+
+        .intro-section {
+            background: white;
+            padding: 2rem;
+            border-radius: 0.75rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            margin-bottom: 3rem;
+        }
+
+        .intro-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .intro-item {
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .intro-icon {
+            width: 48px;
+            height: 48px;
+            margin: 0 auto 1rem;
+            color: #2563eb;
+        }
+
+        .intro-title {
+            font-weight: 600;
+            color: #0f172a;
+            margin-bottom: 0.5rem;
+        }
+
+        .intro-text {
+            font-size: 0.875rem;
+            color: #64748b;
+        }
+
+        @media (max-width: 768px) {
+            .logo-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="index.html" class="logo">
+                    <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <div>
+                        <div class="logo-title">LUKSOMER</div>
+                        <div class="logo-subtitle" data-i18n="nav.subtitle">Энергетика и строительство</div>
+                    </div>
+                </a>
+
+                <div class="nav-menu" id="navMenu">
+                    <a href="index.html" class="nav-link" data-i18n="nav.home">Главная</a>
+                    <a href="about.html" class="nav-link" data-i18n="nav.about">О компании</a>
+                    <a href="projects.html" class="nav-link" data-i18n="nav.projects">Проекты</a>
+                    <a href="logos.html" class="nav-link active">Логотипы</a>
+                    <a href="contacts.html" class="nav-link" data-i18n="nav.contacts">Контакты</a>
+                </div>
+
+                <div class="nav-right">
+                    <div class="language-switcher">
+                        <button class="lang-btn active" data-lang="ru">RU</button>
+                        <button class="lang-btn" data-lang="uz">UZ</button>
+                        <button class="lang-btn" data-lang="en">EN</button>
+                    </div>
+                    <button class="mobile-menu-btn" id="mobileMenuBtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="page-header-bg">
+            <img src="https://images.unsplash.com/photo-1626785774573-4b799315345d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1920" alt="Логотипы">
+        </div>
+        <div class="container">
+            <div class="page-header-content">
+                <nav class="breadcrumbs">
+                    <a href="index.html">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" stroke-width="2"/>
+                        </svg>
+                    </a>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M9 18l6-6-6-6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <span>Логотипы</span>
+                </nav>
+                <h1 class="page-title">Корпоративные логотипы LUKSOMER</h1>
+                <p class="page-description">
+                    Профессиональные варианты корпоративного стиля для энергетической компании
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="logos-page">
+        <div class="container">
+            <!-- Introduction -->
+            <div class="intro-section">
+                <h2 style="font-size: 1.5rem; margin-bottom: 1rem; color: #0f172a;">О коллекции логотипов</h2>
+                <p style="color: #64748b; line-height: 1.8;">
+                    Представлены 15 профессиональных вариантов корпоративного логотипа LUKSOMER LLC. 
+                    Каждый вариант разработан с учетом специфики энергетического бизнеса, 
+                    соответствует корпоративным стандартам и может использоваться в различных форматах.
+                </p>
+
+                <div class="intro-grid">
+                    <div class="intro-item">
+                        <svg class="intro-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="3" width="18" height="18" rx="2"/>
+                            <path d="M3 9h18M9 21V9"/>
+                        </svg>
+                        <div class="intro-title">Универсальность</div>
+                        <div class="intro-text">Подходит для всех носителей</div>
+                    </div>
+                    <div class="intro-item">
+                        <svg class="intro-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="M2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                        <div class="intro-title">Масштабируемость</div>
+                        <div class="intro-text">От favicon до билборда</div>
+                    </div>
+                    <div class="intro-item">
+                        <svg class="intro-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="3"/>
+                            <path d="M12 1v6m0 6v6M1 12h6m6 0h6"/>
+                        </svg>
+                        <div class="intro-title">Корпоративность</div>
+                        <div class="intro-text">Серьезный премиальный стиль</div>
+                    </div>
+                    <div class="intro-item">
+                        <svg class="intro-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                        </svg>
+                        <div class="intro-title">Современность</div>
+                        <div class="intro-text">Актуальный дизайн 2026</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Logo Grid -->
+            <div class="logo-grid">
+                <!-- Logo 1: Classic Lightning + Typography -->
+                <div class="logo-variant">
+                    <div class="logo-header">
+                        <div class="logo-number">Вариант 01</div>
+                        <div class="logo-name">
+                            Классический энергетический
+                            <span class="logo-tag">Рекомендуемый</span>
+                        </div>
+                    </div>
+                    <div class="logo-display dark">
+                        <svg width="240" height="60" viewBox="0 0 240 60" fill="none">
+                            <!-- Lightning Icon -->
+                            <path d="M28 10L18 30h10l-2 20 10-20h-10l2-20z" fill="#60a5fa" stroke="#2563eb" stroke-width="1.5"/>
+                            <!-- Text -->
+                            <text x="50" y="28" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="700" fill="white">LUKSOMER</text>
+                            <text x="50" y="43" font-family="system-ui, -apple-system, sans-serif" font-size="9" fill="#94a3b8" letter-spacing="1">ENERGY & CONSTRUCTION</text>
+                        </svg>
+                    </div>
+                    <div class="logo-variations">
+                        <div class="logo-small light">
+                            <svg width="40" height="40" viewBox="0 0 40 40">
+                                <path d="M23 8L13 22h10l-2 16 10-16h-10l2-14z" fill="#2563eb"/>
+                            </svg>
+                        </div>
+                        <div class="logo-small dark">
+                            <svg width="120" height="30" viewBox="0 0 120 30">
+                                <text x="0" y="22" font-family="system-ui" font-size="18" font-weight="700" fill="white">LUKSOMER</text>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="download-section">
+                        <div class="logo-tags">
+                            <span class="tag-small">Типографика</span>
+                            <span class="tag-small">Иконка</span>
+                            <span class="tag-small">Универсальный</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Logo 2: Geometric L -->
+                <div class="logo-variant">
+                    <div class="logo-header">
+                        <div class="logo-number">Вариант 02</div>
+                        <div class="logo-name">Геометрическая монограмма</div>
+                    </div>
+                    <div class="logo-display dark">
+                        <svg width="240" height="60" viewBox="0 0 240 60" fill="none">
+                            <!-- Geometric L -->
+                            <rect x="10" y="15" width="8" height="30" fill="#2563eb"/>
+                            <rect x="10" y="37" width="20" height="8" fill="#60a5fa"/>
+                            <path d="M35 20 L35 25 L32 25 Z" fill="#2563eb"/>
+                            <!-- Text -->
+                            <text x="50" y="35" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="700" fill="white" letter-spacing="2">LUKSOMER</text>
+                        </svg>
+                    </div>
+                    <div class="logo-variations">
+                        <div class="logo-small light">
+                            <svg width="40" height="40" viewBox="0 0 40 40">
+                                <rect x="12" y="10" width="6" height="20" fill="#2563eb"/>
+                                <rect x="12" y="24" width="16" height="6" fill="#60a5fa"/>
+                            </svg>
+                        </div>
+                        <div class="logo-small dark">
+                            <svg width="150" height="40" viewBox="0 0 150 40">
+                                <rect x="5" y="10" width="5" height="20" fill="#2563eb"/>
+                                <rect x="5" y="25" width="12" height="5" fill="#60a5fa"/>
+                                <text x="25" y="26" font-family="system-ui" font-size="16" font-weight="700" fill="white" letter-spacing="1">LUKSOMER</text>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="download-section">
+                        <div class="logo-tags">
+                            <span class="tag-small">Минимализм</span>
+                            <span class="tag-small">Геометрия</span>
+                            <span class="tag-small">Монограмма</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Logo 3: LKS Monogram -->
+                <div class="logo-variant">
+                    <div class="logo-header">
+                        <div class="logo-number">Вариант 03</div>
+                        <div class="logo-name">Премиум монограмма LKS</div>
+                    </div>
+                    <div class="logo-display dark">
+                        <svg width="240" height="60" viewBox="0 0 240 60" fill="none">
+                            <!-- Circle background -->
+                            <circle cx="30" cy="30" r="22" stroke="#2563eb" stroke-width="2" fill="none"/>
+                            <!-- LKS -->
+                            <text x="30" y="38" font-family="Georgia, serif" font-size="18" font-weight="700" fill="#60a5fa" text-anchor="middle">LKS</text>
+                            <!-- Text -->
+                            <text x="65" y="28" font-family="Georgia, serif" font-size="22" font-weight="400" fill="white" letter-spacing="3">LUKSOMER</text>
+                            <text x="65" y="42" font-family="system-ui" font-size="8" fill="#94a3b8" letter-spacing="2">POWER SOLUTIONS</text>
+                        </svg>
+                    </div>
+                    <div class="logo-variations">
+                        <div class="logo-small light">
+                            <svg width="50" height="50" viewBox="0 0 50 50">
+                                <circle cx="25" cy="25" r="20" stroke="#2563eb" stroke-width="2" fill="none"/>
+                                <text x="25" y="32" font-family="Georgia, serif" font-size="16" font-weight="700" fill="#2563eb" text-anchor="middle">LKS</text>
+                            </svg>
+                        </div>
+                        <div class="logo-small dark">
+                            <svg width="160" height="40" viewBox="0 0 160 40">
+                                <circle cx="20" cy="20" r="16" stroke="#2563eb" stroke-width="1.5" fill="none"/>
+                                <text x="20" y="26" font-family="Georgia, serif" font-size="14" font-weight="700" fill="#60a5fa" text-anchor="middle">LKS</text>
+                                <text x="45" y="25" font-family="Georgia, serif" font-size="16" fill="white" letter-spacing="2">LUKSOMER</text>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="download-section">
+                        <div class="logo-tags">
+                            <span class="tag-small">Премиум</span>
+                            <span class="tag-small">Монограмма</span>
+                            <span class="tag-small">Элегантный</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Logo 4: Electric Wave -->
+                <div class="logo-variant">
+                    <div class="logo-header">
+                        <div class="logo-number">Вариант 04</div>
+                        <div class="logo-name">Энергетическая волна</div>
+                    </div>
+                    <div class="logo-display dark">
+                        <svg width="240" height="60" viewBox="0 0 240 60" fill="none">
+                            <!-- Wave -->
+                            <path d="M10 30 Q15 20, 20 30 T30 30 Q35 20, 40 30" stroke="#60a5fa" stroke-width="3" fill="none" stroke-linecap="round"/>
+                            <circle cx="42" cy="30" r="2" fill="#2563eb"/>
+                            <!-- Text -->
+                            <text x="55" y="35" font-family="system-ui" font-size="26" font-weight="700" fill="white" letter-spacing="1">LUKSOMER</text>
+                        </svg>
+                    </div>
+                    <div class="logo-variations">
+                        <div class="logo-small light">
+                            <svg width="50" height="50" viewBox="0 0 50 50">
+                                <path d="M10 25 Q15 15, 20 25 T30 25 Q35 15, 40 25" stroke="#2563eb" stroke-width="3" fill="none" stroke-linecap="round"/>
+                                <circle cx="42" cy="25" r="3" fill="#2563eb"/>
+                            </svg>
+                        </div>
+                        <div class="logo-small dark">
+                            <svg width="140" height="40" viewBox="0 0 140 40">
+                                <path d="M5 20 Q8 15, 11 20 T17 20 Q20 15, 23 20" stroke="#60a5fa" stroke-width="2" fill="none" stroke-linecap="round"/>
+                                <text x="30" y="26" font-family="system-ui" font-size="18" font-weight="700" fill="white">LUKSOMER</text>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="download-section">
+                        <div class="logo-tags">
+                            <span class="tag-small">Динамичный</span>
+                            <span class="tag-small">Современный</span>
+                            <span class="tag-small">Энергия</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Logo 5: Shield -->
+                <div class="logo-variant">
+                    <div class="logo-header">
+                        <div class="logo-number">Вариант 05</div>
+                        <div class="logo-name">Корпоративный щит</div>
+                    </div>
+                    <div class="logo-display dark">
+                        <svg width="240" height="60" viewBox="0 0 240 60" fill="none">
+                            <!-- Shield -->
+                            <path d="M30 12 L40 17 L40 30 Q40 38, 30 42 Q20 38, 20 30 L20 17 Z" fill="#2563eb" stroke="#60a5fa" stroke-width="1.5"/>
+                            <text x="30" y="32" font-family="system-ui" font-size="12" font-weight="700" fill="white" text-anchor="middle">L</text>
+                            <!-- Text -->
+                            <text x="55" y="32" font-family="system-ui" font-size="24" font-weight="700" fill="white" letter-spacing="2">LUKSOMER</text>
+                            <text x="55" y="44" font-family="system-ui" font-size="8" fill="#94a3b8" letter-spacing="1.5">НАДЕЖНОСТЬ • КАЧЕСТВО</text>
+                        </svg>
+                    </div>
+                    <div class="logo-variations">
+                        <div class="logo-small light">
+                            <svg width="50" height="50" viewBox="0 0 50 50">
+                                <path d="M25 10 L35 15 L35 28 Q35 36, 25 40 Q15 36, 15 28 L15 15 Z" fill="#2563eb"/>
+                                <text x="25" y="30" font-family="system-ui" font-size="14" font-weight="700" fill="white" text-anchor="middle">L</text>
+                            </svg>
+                        </div>
+                        <div class="logo-small dark">
+                            <svg width="150" height="40" viewBox="0 0 150 40">
+                                <path d="M20 8 L28 12 L28 22 Q28 28, 20 31 Q12 28, 12 22 L12 12 Z" fill="#2563eb" stroke="#60a5fa" stroke-width="1"/>
+                                <text x="20" y="24" font-family="system-ui" font-size="10" font-weight="700" fill="white" text-anchor="middle">L</text>
+                                <text x="38" y="25" font-family="system-ui" font-size="16" font-weight="700" fill="white">LUKSOMER</text>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="download-section">
+                        <div class="logo-tags">
+                            <span class="tag-small">Надежность</span>
+                            <span class="tag-small">Защита</span>
+                            <span class="tag-small">Корпоративный</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Logo 6: Pure Typography -->
+                <div class="logo-variant">
+                    <div class="logo-header">
+                        <div class="logo-number">Вариант 06</div>
+                        <div class="logo-name">Чистая типографика<span class="logo-tag">Минимализм</span></div>
+                    </div>
+                    <div class="logo-display dark">
+                        <svg width="240" height="60" viewBox="0 0 240 60" fill="none">
+                            <text x="10" y="38" font-family="system-ui" font-size="32" font-weight="800" fill="white" letter-spacing="4">LUKSOMER</text>
+                            <rect x="10" y="45" width="60" height="3" fill="#2563eb"/>
+                        </svg>
+                    </div>
+                    <div class="logo-variations">
+                        <div class="logo-small light">
+                            <svg width="80" height="80" viewBox="0 0 80 80">
+                                <text x="40" y="45" font-family="system-ui" font-size="24" font-weight="800" fill="#0f172a" letter-spacing="2" text-anchor="middle">LKS</text>
+                                <rect x="20" y="52" width="40" height="2" fill="#2563eb"/>
+                            </svg>
+                        </div>
+                        <div class="logo-small dark">
+                            <svg width="140" height="40" viewBox="0 0 140 40">
+                                <text x="5" y="26" font-family="system-ui" font-size="20" font-weight="800" fill="white" letter-spacing="3">LUKSOMER</text>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="download-section">
+                        <div class="logo-tags">
+                            <span class="tag-small">Типографика</span>
+                            <span class="tag-small">Минимализм</span>
+                            <span class="tag-small">Строгий</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Logo 7: Abstract Energy -->
+                <div class="logo-variant">
+                    <div class="logo-header">
+                        <div class="logo-number">Вариант 07</div>
+                        <div class="logo-name">Абстрактная энергия</div>
+                    </div>
+                    <div class="logo-display dark">
+                        <svg width="240" height="60" viewBox="0 0 240 60" fill="none">
+                            <!-- Abstract circles -->
+                            <circle cx="20" cy="25" r="6" fill="#2563eb" opacity="0.8"/>
+                            <circle cx="30" cy="25" r="8" fill="#60a5fa" opacity="0.6"/>
+                            <circle cx="38" cy="25" r="5" fill="#2563eb" opacity="0.9"/>
+                            <path d="M18 30 Q30 35, 40 30" stroke="#60a5fa" stroke-width="2" fill="none"/>
+                            <!-- Text -->
+                            <text x="55" y="32" font-family="system-ui" font-size="24" font-weight="600" fill="white" letter-spacing="2">LUKSOMER</text>
+                        </svg>
+                    </div>
+                    <div class="logo-variations">
+                        <div class="logo-small light">
+                            <svg width="60" height="60" viewBox="0 0 60 60">
+                                <circle cx="20" cy="30" r="8" fill="#2563eb" opacity="0.8"/>
+                                <circle cx="32" cy="30" r="10" fill="#60a5fa" opacity="0.6"/>
+                                <circle cx="42" cy="30" r="6" fill="#2563eb" opacity="0.9"/>
+                            </svg>
+                        </div>
+                        <div class="logo-small dark">
+                            <svg width="140" height="40" viewBox="0 0 140 40">
+                                <circle cx="10" cy="20" r="4" fill="#2563eb" opacity="0.8"/>
+                                <circle cx="18" cy="20" r="5" fill="#60a5fa" opacity="0.6"/>
+                                <circle cx="25" cy="20" r="3" fill="#2563eb"/>
+                                <text x="35" y="25" font-family="system-ui" font-size="16" font-weight="600" fill="white">LUKSOMER</text>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="download-section">
+                        <div class="logo-tags">
+                            <span class="tag-small">Абстракция</span>
+                            <span class="tag-small">Современный</span>
+                            <span class="tag-small">Креативный</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Logo 8: Hexagon Grid -->
+                <div class="logo-variant">
+                    <div class="logo-header">
+                        <div class="logo-number">Вариант 08</div>
+                        <div class="logo-name">Энергетическая сеть</div>
+                    </div>
+                    <div class="logo-display dark">
+                        <svg width="240" height="60" viewBox="0 0 240 60" fill="none">
+                            <!-- Hexagons -->
+                            <polygon points="20,15 28,19 28,27 20,31 12,27 12,19" stroke="#2563eb" stroke-width="2" fill="none"/>
+                            <polygon points="28,19 36,23 36,31 28,35 20,31 20,23" stroke="#60a5fa" stroke-width="1.5" fill="none"/>
+                            <circle cx="20" cy="23" r="2" fill="#60a5fa"/>
+                            <circle cx="28" cy="27" r="2" fill="#2563eb"/>
+                            <!-- Text -->
+                            <text x="50" y="32" font-family="system-ui" font-size="24" font-weight="700" fill="white" letter-spacing="1.5">LUKSOMER</text>
+                        </svg>
+                    </div>
+                    <div class="logo-variations">
+                        <div class="logo-small light">
+                            <svg width="60" height="60" viewBox="0 0 60 60">
+                                <polygon points="30,15 40,21 40,33 30,39 20,33 20,21" stroke="#2563eb" stroke-width="2" fill="none"/>
+                                <circle cx="30" cy="27" r="3" fill="#2563eb"/>
+                            </svg>
+                        </div>
+                        <div class="logo-small dark">
+                            <svg width="140" height="40" viewBox="0 0 140 40">
+                                <polygon points="15,10 22,14 22,22 15,26 8,22 8,14" stroke="#2563eb" stroke-width="1.5" fill="none"/>
+                                <circle cx="15" cy="18" r="2" fill="#60a5fa"/>
+                                <text x="32" y="25" font-family="system-ui" font-size="16" font-weight="700" fill="white">LUKSOMER</text>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="download-section">
+                        <div class="logo-tags">
+                            <span class="tag-small">Сеть</span>
+                            <span class="tag-small">Технологии</span>
+                            <span class="tag-small">Структура</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Logo 9: Square Module -->
+                <div class="logo-variant">
+                    <div class="logo-header">
+                        <div class="logo-number">Вариант 09</div>
+                        <div class="logo-name">Модульная система</div>
+                    </div>
+                    <div class="logo-display dark">
+                        <svg width="240" height="60" viewBox="0 0 240 60" fill="none">
+                            <!-- Modules -->
+                            <rect x="12" y="18" width="12" height="12" fill="#2563eb"/>
+                            <rect x="26" y="18" width="12" height="12" fill="none" stroke="#60a5fa" stroke-width="2"/>
+                            <rect x="12" y="32" width="12" height="12" fill="none" stroke="#60a5fa" stroke-width="2"/>
+                            <rect x="26" y="32" width="12" height="12" fill="#2563eb"/>
+                            <!-- Text -->
+                            <text x="52" y="35" font-family="system-ui" font-size="26" font-weight="700" fill="white" letter-spacing="1">LUKSOMER</text>
+                        </svg>
+                    </div>
+                    <div class="logo-variations">
+                        <div class="logo-small light">
+                            <svg width="60" height="60" viewBox="0 0 60 60">
+                                <rect x="15" y="15" width="14" height="14" fill="#2563eb"/>
+                                <rect x="31" y="15" width="14" height="14" fill="none" stroke="#2563eb" stroke-width="2"/>
+                                <rect x="15" y="31" width="14" height="14" fill="none" stroke="#2563eb" stroke-width="2"/>
+                                <rect x="31" y="31" width="14" height="14" fill="#2563eb"/>
+                            </svg>
+                        </div>
+                        <div class="logo-small dark">
+                            <svg width="140" height="40" viewBox="0 0 140 40">
+                                <rect x="6" y="12" width="8" height="8" fill="#2563eb"/>
+                                <rect x="16" y="12" width="8" height="8" fill="none" stroke="#60a5fa" stroke-width="1.5"/>
+                                <rect x="6" y="22" width="8" height="8" fill="none" stroke="#60a5fa" stroke-width="1.5"/>
+                                <rect x="16" y="22" width="8" height="8" fill="#2563eb"/>
+                                <text x="32" y="25" font-family="system-ui" font-size="16" font-weight="700" fill="white">LUKSOMER</text>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="download-section">
+                        <div class="logo-tags">
+                            <span class="tag-small">Модульный</span>
+                            <span class="tag-small">Структура</span>
+                            <span class="tag-small">Системный</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Logo 10: Power Line -->
+                <div class="logo-variant">
+                    <div class="logo-header">
+                        <div class="logo-number">Вариант 10</div>
+                        <div class="logo-name">Линии электропередач</div>
+                    </div>
+                    <div class="logo-display dark">
+                        <svg width="240" height="60" viewBox="0 0 240 60" fill="none">
+                            <!-- Tower -->
+                            <path d="M25 15 L25 40 M20 20 L30 20 M18 25 L32 25 M16 30 L34 30" stroke="#2563eb" stroke-width="2"/>
+                            <circle cx="25" cy="15" r="3" fill="#60a5fa"/>
+                            <path d="M25 15 Q35 18, 45 15" stroke="#60a5fa" stroke-width="1" stroke-dasharray="2,2"/>
+                            <!-- Text -->
+                            <text x="52" y="32" font-family="system-ui" font-size="24" font-weight="700" fill="white" letter-spacing="1.5">LUKSOMER</text>
+                        </svg>
+                    </div>
+                    <div class="logo-variations">
+                        <div class="logo-small light">
+                            <svg width="60" height="60" viewBox="0 0 60 60">
+                                <path d="M30 15 L30 45 M25 20 L35 20 M23 27 L37 27 M21 34 L39 34" stroke="#2563eb" stroke-width="2"/>
+                                <circle cx="30" cy="15" r="4" fill="#2563eb"/>
+                            </svg>
+                        </div>
+                        <div class="logo-small dark">
+                            <svg width="140" height="40" viewBox="0 0 140 40">
+                                <path d="M15 8 L15 32 M11 12 L19 12 M10 17 L20 17 M9 22 L21 22" stroke="#2563eb" stroke-width="1.5"/>
+                                <circle cx="15" cy="8" r="2" fill="#60a5fa"/>
+                                <text x="30" y="25" font-family="system-ui" font-size="16" font-weight="700" fill="white">LUKSOMER</text>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="download-section">
+                        <div class="logo-tags">
+                            <span class="tag-small">Индустриальный</span>
+                            <span class="tag-small">Энергетика</span>
+                            <span class="tag-small">Специфичный</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Logo 11: Serif Typography -->
+                <div class="logo-variant">
+                    <div class="logo-header">
+                        <div class="logo-number">Вариант 11</div>
+                        <div class="logo-name">Премиум типографика<span class="logo-tag">Элегантный</span></div>
+                    </div>
+                    <div class="logo-display dark">
+                        <svg width="240" height="60" viewBox="0 0 240 60" fill="none">
+                            <text x="20" y="38" font-family="Georgia, serif" font-size="28" font-weight="400" fill="white" letter-spacing="5">LUKSOMER</text>
+                            <line x1="20" y1="42" x2="220" y2="42" stroke="#2563eb" stroke-width="1"/>
+                            <line x1="20" y1="45" x2="100" y2="45" stroke="#60a5fa" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <div class="logo-variations">
+                        <div class="logo-small light">
+                            <svg width="80" height="80" viewBox="0 0 80 80">
+                                <text x="40" y="42" font-family="Georgia, serif" font-size="22" font-weight="400" fill="#0f172a" letter-spacing="3" text-anchor="middle">LKS</text>
+                                <line x1="20" y1="48" x2="60" y2="48" stroke="#2563eb" stroke-width="1.5"/>
+                            </svg>
+                        </div>
+                        <div class="logo-small dark">
+                            <svg width="150" height="40" viewBox="0 0 150 40">
+                                <text x="10" y="24" font-family="Georgia, serif" font-size="18" font-weight="400" fill="white" letter-spacing="3">LUKSOMER</text>
+                                <line x1="10" y1="28" x2="140" y2="28" stroke="#60a5fa" stroke-width="1"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="download-section">
+                        <div class="logo-tags">
+                            <span class="tag-small">Serif</span>
+                            <span class="tag-small">Премиум</span>
+                            <span class="tag-small">Элегантный</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Logo 12: Circuit Board -->
+                <div class="logo-variant">
+                    <div class="logo-header">
+                        <div class="logo-number">Вариант 12</div>
+                        <div class="logo-name">Электронная схема</div>
+                    </div>
+                    <div class="logo-display dark">
+                        <svg width="240" height="60" viewBox="0 0 240 60" fill="none">
+                            <!-- Circuit -->
+                            <circle cx="18" cy="25" r="3" fill="#60a5fa"/>
+                            <line x1="21" y1="25" x2="30" y2="25" stroke="#2563eb" stroke-width="2"/>
+                            <circle cx="30" cy="25" r="2" fill="#2563eb"/>
+                            <line x1="30" y1="25" x2="30" y2="35" stroke="#2563eb" stroke-width="2"/>
+                            <circle cx="30" cy="35" r="3" fill="#60a5fa"/>
+                            <line x1="30" y1="35" x2="40" y2="35" stroke="#2563eb" stroke-width="2"/>
+                            <rect x="38" y="33" width="4" height="4" fill="#2563eb"/>
+                            <!-- Text -->
+                            <text x="52" y="32" font-family="system-ui" font-size="24" font-weight="600" fill="white" letter-spacing="1.5">LUKSOMER</text>
+                        </svg>
+                    </div>
+                    <div class="logo-variations">
+                        <div class="logo-small light">
+                            <svg width="60" height="60" viewBox="0 0 60 60">
+                                <circle cx="20" cy="25" r="4" fill="#2563eb"/>
+                                <line x1="24" y1="25" x2="36" y2="25" stroke="#2563eb" stroke-width="2"/>
+                                <circle cx="36" cy="25" r="3" fill="#60a5fa"/>
+                                <line x1="36" y1="25" x2="36" y2="38" stroke="#2563eb" stroke-width="2"/>
+                                <circle cx="36" cy="38" r="4" fill="#2563eb"/>
+                            </svg>
+                        </div>
+                        <div class="logo-small dark">
+                            <svg width="140" height="40" viewBox="0 0 140 40">
+                                <circle cx="10" cy="20" r="2" fill="#60a5fa"/>
+                                <line x1="12" y1="20" x2="18" y2="20" stroke="#2563eb" stroke-width="1.5"/>
+                                <circle cx="18" cy="20" r="1.5" fill="#2563eb"/>
+                                <text x="28" y="25" font-family="system-ui" font-size="16" font-weight="600" fill="white">LUKSOMER</text>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="download-section">
+                        <div class="logo-tags">
+                            <span class="tag-small">Технологии</span>
+                            <span class="tag-small">Схема</span>
+                            <span class="tag-small">Инновации</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Logo 13: Dynamic Arrow -->
+                <div class="logo-variant">
+                    <div class="logo-header">
+                        <div class="logo-number">Вариант 13</div>
+                        <div class="logo-name">Динамичный рост</div>
+                    </div>
+                    <div class="logo-display dark">
+                        <svg width="240" height="60" viewBox="0 0 240 60" fill="none">
+                            <!-- Arrow up -->
+                            <path d="M15 35 L25 20 L35 35 M25 20 L25 40" stroke="#2563eb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M20 25 L25 20 L30 25" fill="#60a5fa"/>
+                            <!-- Text -->
+                            <text x="50" y="32" font-family="system-ui" font-size="26" font-weight="700" fill="white" letter-spacing="1">LUKSOMER</text>
+                            <text x="50" y="44" font-family="system-ui" font-size="8" fill="#94a3b8" letter-spacing="1.5">РАЗВИТИЕ • ИННОВАЦИИ</text>
+                        </svg>
+                    </div>
+                    <div class="logo-variations">
+                        <div class="logo-small light">
+                            <svg width="60" height="60" viewBox="0 0 60 60">
+                                <path d="M20 38 L30 18 L40 38 M30 18 L30 42" stroke="#2563eb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M25 23 L30 18 L35 23" fill="#2563eb"/>
+                            </svg>
+                        </div>
+                        <div class="logo-small dark">
+                            <svg width="140" height="40" viewBox="0 0 140 40">
+                                <path d="M10 28 L18 12 L26 28 M18 12 L18 32" stroke="#2563eb" stroke-width="2" stroke-linecap="round"/>
+                                <text x="34" y="25" font-family="system-ui" font-size="16" font-weight="700" fill="white">LUKSOMER</text>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="download-section">
+                        <div class="logo-tags">
+                            <span class="tag-small">Рост</span>
+                            <span class="tag-small">Динамика</span>
+                            <span class="tag-small">Развитие</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Logo 14: Minimal L -->
+                <div class="logo-variant">
+                    <div class="logo-header">
+                        <div class="logo-number">Вариант 14</div>
+                        <div class="logo-name">Ультра-минимализм</div>
+                    </div>
+                    <div class="logo-display dark">
+                        <svg width="240" height="60" viewBox="0 0 240 60" fill="none">
+                            <!-- Minimal L -->
+                            <line x1="20" y1="15" x2="20" y2="40" stroke="#2563eb" stroke-width="4"/>
+                            <line x1="20" y1="40" x2="35" y2="40" stroke="#60a5fa" stroke-width="4"/>
+                            <!-- Text -->
+                            <text x="50" y="34" font-family="system-ui" font-size="28" font-weight="300" fill="white" letter-spacing="6">LUKSOMER</text>
+                        </svg>
+                    </div>
+                    <div class="logo-variations">
+                        <div class="logo-small light">
+                            <svg width="60" height="60" viewBox="0 0 60 60">
+                                <line x1="25" y1="18" x2="25" y2="42" stroke="#2563eb" stroke-width="4"/>
+                                <line x1="25" y1="42" x2="42" y2="42" stroke="#60a5fa" stroke-width="4"/>
+                            </svg>
+                        </div>
+                        <div class="logo-small dark">
+                            <svg width="140" height="40" viewBox="0 0 140 40">
+                                <line x1="12" y1="10" x2="12" y2="28" stroke="#2563eb" stroke-width="3"/>
+                                <line x1="12" y1="28" x2="22" y2="28" stroke="#60a5fa" stroke-width="3"/>
+                                <text x="30" y="24" font-family="system-ui" font-size="16" font-weight="300" fill="white" letter-spacing="3">LUKSOMER</text>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="download-section">
+                        <div class="logo-tags">
+                            <span class="tag-small">Минимализм</span>
+                            <span class="tag-small">Чистота</span>
+                            <span class="tag-small">Простота</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Logo 15: Connected Nodes -->
+                <div class="logo-variant">
+                    <div class="logo-header">
+                        <div class="logo-number">Вариант 15</div>
+                        <div class="logo-name">Сетевые подключения</div>
+                    </div>
+                    <div class="logo-display dark">
+                        <svg width="240" height="60" viewBox="0 0 240 60" fill="none">
+                            <!-- Network -->
+                            <circle cx="15" cy="25" r="4" fill="#2563eb"/>
+                            <circle cx="35" cy="20" r="4" fill="#60a5fa"/>
+                            <circle cx="35" cy="35" r="4" fill="#2563eb"/>
+                            <line x1="15" y1="25" x2="35" y2="20" stroke="#2563eb" stroke-width="1.5"/>
+                            <line x1="15" y1="25" x2="35" y2="35" stroke="#60a5fa" stroke-width="1.5"/>
+                            <line x1="35" y1="20" x2="35" y2="35" stroke="#2563eb" stroke-width="1"/>
+                            <!-- Text -->
+                            <text x="52" y="32" font-family="system-ui" font-size="24" font-weight="700" fill="white" letter-spacing="1.5">LUKSOMER</text>
+                        </svg>
+                    </div>
+                    <div class="logo-variations">
+                        <div class="logo-small light">
+                            <svg width="60" height="60" viewBox="0 0 60 60">
+                                <circle cx="20" cy="30" r="5" fill="#2563eb"/>
+                                <circle cx="40" cy="22" r="5" fill="#60a5fa"/>
+                                <circle cx="40" cy="38" r="5" fill="#2563eb"/>
+                                <line x1="20" y1="30" x2="40" y2="22" stroke="#2563eb" stroke-width="2"/>
+                                <line x1="20" y1="30" x2="40" y2="38" stroke="#60a5fa" stroke-width="2"/>
+                                <line x1="40" y1="22" x2="40" y2="38" stroke="#2563eb" stroke-width="1.5"/>
+                            </svg>
+                        </div>
+                        <div class="logo-small dark">
+                            <svg width="140" height="40" viewBox="0 0 140 40">
+                                <circle cx="10" cy="20" r="3" fill="#2563eb"/>
+                                <circle cx="22" cy="15" r="3" fill="#60a5fa"/>
+                                <circle cx="22" cy="25" r="3" fill="#2563eb"/>
+                                <line x1="10" y1="20" x2="22" y2="15" stroke="#2563eb" stroke-width="1.5"/>
+                                <line x1="10" y1="20" x2="22" y2="25" stroke="#60a5fa" stroke-width="1.5"/>
+                                <text x="32" y="25" font-family="system-ui" font-size="16" font-weight="700" fill="white">LUKSOMER</text>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="download-section">
+                        <div class="logo-tags">
+                            <span class="tag-small">Сеть</span>
+                            <span class="tag-small">Подключение</span>
+                            <span class="tag-small">Интеграция</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <div class="footer-logo">
+                        <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <div>
+                            <div class="logo-title">LUKSOMER</div>
+                            <div class="logo-subtitle" data-i18n="nav.subtitle">Энергетика и строительство</div>
+                        </div>
+                    </div>
+                    <p class="footer-description" data-i18n="footer.description">
+                        Ведущая компания в области энергетики и электромонтажных работ в Узбекистане с 2009 года
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                                <rect x="2" y="9" width="4" height="12"/>
+                                <circle cx="4" cy="4" r="2"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h3 class="footer-title" data-i18n="footer.links.title">Ссылки</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html" data-i18n="nav.home">Главная</a></li>
+                        <li><a href="about.html" data-i18n="nav.about">О компании</a></li>
+                        <li><a href="projects.html" data-i18n="nav.projects">Проекты</a></li>
+                        <li><a href="logos.html">Логотипы</a></li>
+                        <li><a href="contacts.html" data-i18n="nav.contacts">Контакты</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer-title" data-i18n="footer.services.title">Услуги</h3>
+                    <ul class="footer-links">
+                        <li data-i18n="footer.services.power">Электроснабжение</li>
+                        <li data-i18n="footer.services.lines">ЛЭП и подстанции</li>
+                        <li data-i18n="footer.services.construction">Промышленное строительство</li>
+                        <li data-i18n="footer.services.projects">Инженерные проекты</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer-title" data-i18n="footer.contacts.title">Контакты</h3>
+                    <ul class="footer-contacts">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            <span data-i18n="footer.contacts.address">г. Ташкент, Узбекистан</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                            <span>+998 XX XXX XX XX</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                            <span>info@luksomer.uz</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 LUKSOMER LLC. <span data-i18n="footer.rights">Все права защищены.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/translations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
