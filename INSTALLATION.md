@@ -68,7 +68,7 @@ Luksomer_html/
 Откройте любой HTML файл и найдите секцию footer. Замените:
 
 ```html
-<span>+998 71 123 45 67</span>
+<span>+998 20 002 16 80</span>
 <span>info@luksomer.uz</span>
 <span>г. Ташкент, ул. Примерная, д. 123</span>
 ```

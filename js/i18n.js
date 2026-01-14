@@ -73,6 +73,7 @@ const translations = {
         'projects.filter.substation': 'Подстанции',
         'projects.filter.lighting': 'Освещение',
         'projects.filter.power': 'Электроснабжение',
+        'projects.filter.panels': 'Солнечные панели',
 
         'contacts.page.title': 'Контакты',
         'contacts.page.subtitle': 'Свяжитесь с нами для обсуждения вашего проекта',
@@ -154,6 +155,7 @@ const translations = {
         'projects.filter.substation': 'Podstansiyalar',
         'projects.filter.lighting': 'Yoritish',
         'projects.filter.power': 'Elektr ta\'minoti',
+        'projects.filter.panels': 'Quyosh panelari',
 
         'contacts.page.title': 'Aloqa',
         'contacts.page.subtitle': 'Loyihangizni muhokama qilish uchun biz bilan bog\'laning',
@@ -235,6 +237,7 @@ const translations = {
         'projects.filter.substation': 'Substations',
         'projects.filter.lighting': 'Lighting',
         'projects.filter.power': 'Power Supply',
+        'projects.filter.panels': 'Solar Panels',
 
         'contacts.page.title': 'Contacts',
         'contacts.page.subtitle': 'Contact us to discuss your project',
